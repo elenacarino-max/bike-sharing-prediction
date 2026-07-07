@@ -290,6 +290,9 @@ def set_background(ruta_imagen):
         [data-testid="stHeader"], [data-testid="stMain"], .main {{
             background-color: transparent !important;
         }}
+        :root {{
+            color-scheme: light !important;
+        }}
 
         /* 2. CONTENEDORES: fondo blanco translúcido, sin bordes ni sombras */
         div[data-testid="stVerticalBlockBorderWrapper"] {{
@@ -338,10 +341,12 @@ def set_background(ruta_imagen):
         /* 5. SELECTBOX: fondo blanco, tamaño y centrado */
         div[data-baseweb="select"] > div {{
             background-color: #ffffff !important;
+            color: #000000 !important;
             border: 1px solid #d0d0d0 !important;
         }}
         div[data-baseweb="popover"] ul {{
             background-color: #ffffff !important;
+            color: #000000 !important;
         }}
         div[data-testid="stSelectbox"], div[data-testid="stNumberInput"] {{
             max-width: 200px;
@@ -349,12 +354,79 @@ def set_background(ruta_imagen):
             margin-right: auto;
         }}
 
+        /* 5c. CAMPOS DE TEXTO Y CONTRASEÑA: legibles en modo claro y oscuro */
+        div[data-testid="stTextInput"] input,
+        div[data-testid="stTextInput"] input:focus,
+        div[data-baseweb="input"] input,
+        div[data-baseweb="input"] input:focus,
+        input[type="text"],
+        input[type="password"],
+        textarea {{
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            -webkit-text-fill-color: #000000 !important;
+            caret-color: #000000 !important;
+            border-color: #d0d0d0 !important;
+            font-size: 18px !important;
+        }}
+        div[data-testid="stTextInput"] input::placeholder,
+        div[data-baseweb="input"] input::placeholder,
+        textarea::placeholder {{
+            color: #666666 !important;
+            -webkit-text-fill-color: #666666 !important;
+            opacity: 1 !important;
+        }}
+        div[data-baseweb="input"] > div {{
+            background-color: #ffffff !important;
+            border-color: #d0d0d0 !important;
+        }}
+        div[data-testid="stTextInput"] div[data-baseweb="input"],
+        div[data-testid="stTextInput"] div[data-baseweb="input"] > div,
+        div[data-testid="stTextInput"] div[data-baseweb="input"] > div > div,
+        div[data-testid="stTextInput"] div[data-baseweb="input"] span,
+        div[data-testid="stTextInput"] div[data-baseweb="input"] button {{
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            border-color: #d0d0d0 !important;
+            box-shadow: none !important;
+        }}
+        div[data-baseweb="input"] button,
+        div[data-baseweb="input"] button:hover,
+        div[data-baseweb="input"] button:focus,
+        div[data-baseweb="input"] [role="button"],
+        div[data-baseweb="input"] svg {{
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            fill: #000000 !important;
+            stroke: #000000 !important;
+        }}
+
         /* 5b. BOTÓN DE ENVÍO DEL FORMULARIO */
-        div[data-testid="stFormSubmitButton"] button {{
+        div[data-testid="stFormSubmitButton"] button,
+        div[data-testid="stButton"] button {{
+            background-color: #ffffff !important;
+            color: #000000 !important;
+            border: 1px solid #d0d0d0 !important;
+            box-shadow: none !important;
             max-width: 200px;
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }}
+        div[data-testid="stFormSubmitButton"] button:hover,
+        div[data-testid="stFormSubmitButton"] button:focus,
+        div[data-testid="stButton"] button:hover,
+        div[data-testid="stButton"] button:focus {{
+            background-color: #f2f2f2 !important;
+            color: #000000 !important;
+            border-color: #a6a6a6 !important;
+        }}
+        div[data-testid="stFormSubmitButton"] button p,
+        div[data-testid="stFormSubmitButton"] button span,
+        div[data-testid="stButton"] button p,
+        div[data-testid="stButton"] button span {{
+            color: #000000 !important;
+            -webkit-text-fill-color: #000000 !important;
         }}
 
         /* 6. TAMAÑO DE LETRA EN RESULTADOS (st.metric) */
@@ -390,6 +462,8 @@ def set_background(ruta_imagen):
         div[data-testid="stNumberInput"] input {{
             background-color: #ffffff !important;
             color: #000000 !important;
+            -webkit-text-fill-color: #000000 !important;
+            caret-color: #000000 !important;
             font-size: 18px !important;
         }}
         div[data-testid="stNumberInput"] button {{
@@ -400,9 +474,13 @@ def set_background(ruta_imagen):
         div[data-baseweb="select"] > div,
         div[data-baseweb="select"] div[data-baseweb="input"],
         div[data-baseweb="select"] span {{
+            color: #000000 !important;
+            -webkit-text-fill-color: #000000 !important;
             font-size: 18px !important;
         }}
         div[data-baseweb="popover"] li {{
+            color: #000000 !important;
+            background-color: #ffffff !important;
             font-size: 18px !important;
         }}
         </style>
