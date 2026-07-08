@@ -13,7 +13,7 @@ A regression model and interactive application that forecasts urban bicycle dema
 
 ### 📝 Descripción del Proyecto
 Plataforma predictiva e interactiva diseñada para la optimización y gestión del sistema de bicicletas compartidas **BiciMAD** en Madrid...
-🔗 **Documentación Interactiva de la Web:** [Visita nuestra web en Mintify / Documentation Link](vgg-14b474a8.mintlify.site)
+🔗 **Documentación Interactiva de la Web:** [Visita nuestra web en Mintify / Documentation Link](https://vgg-14b474a8.mintlify.site)
 
 ### 🚀 Características Principales
 * **Predicción de Disponibilidad (ML):** Simulación del estado de inventario de las estaciones basándose en variables climáticas reales (temperatura, humedad, precipitación), tipo de día (laborable/festivo) y franjas horarias.
@@ -33,7 +33,7 @@ Plataforma predictiva e interactiva diseñada para la optimización y gestión d
 ### 📝 Project Description
 An interactive, predictive platform engineered to optimize and manage Madrid's **BiciMAD** bike-sharing network. This project merges **Machine Learning** (powered by a Random Forest algorithm) to anticipate bike availability, with an **Intelligent Booking Assistant** that allows users to secure future trips while enabling administrators to monitor real-time business analytics.
 
-🔗 **Live Web Documentation:** [Visit our Mintify Web / Documentation Link](vgg-14b474a8.mintlify.site)
+🔗 **Live Web Documentation:** [Visit our Mintify Web / Documentation Link](https://vgg-14b474a8.mintlify.site)
 
 ### 🚀 Key Features
 * **Availability Prediction (ML):** Station inventory simulations based on real-time weather parameters (temperature, humidity, precipitation), day status (weekday/holiday), and specific time slots.
