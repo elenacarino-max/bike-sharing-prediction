@@ -1195,6 +1195,21 @@ with tab_usuario:
         # Lanzamos el asistente con control de tamaño en columnas
         inyectar_asistente_en_ciclista(hora_sugerida=str(hora_prediccion))
 # ==========================================
+# PESTAÑA 3: ANALÍTICA DE RESERVAS
+# ==========================================
+with tab_analitica:
+    st.markdown("### 📈 Cuadro de Mando de Reservas")
+    
+    # Importamos tu función desde tu archivo asistente de forma limpia
+    from app_asistente import mostrar_graficas_analitica, archivo_csv
+    
+    # Ejecutamos las gráficas pasándole la variable del archivo histórico
+    mostrar_graficas_analitica(archivo_csv)        
+        
+        
+        
+
+# ==========================================
 # PESTAÑA 2: VISTA GESTOR
 # ==========================================
 with tab_gestion:
@@ -1312,3 +1327,5 @@ with tab_gestion:
                     st.warning("⚠️ **ESTADO DE SATURACIÓN:** Estación casi llena. Plantear retirada de unidades.")
                 else:
                     st.info("🟢 **ESTADO ÓPTIMO:** Inventario equilibrado. No requiere acción logística.")
+                    
+    
