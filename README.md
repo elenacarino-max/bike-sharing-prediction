@@ -64,4 +64,4 @@ You can access the deployed application at the following link:
    cd bike-sharing-prediction
    pip install -r requirements.txt
    streamlit run app/app.py
-  ´´´
+  
