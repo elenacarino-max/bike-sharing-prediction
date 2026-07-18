@@ -31,6 +31,21 @@ Puedes acceder a la aplicación desplegada a través del siguiente enlace:
 * **Análisis de Datos & Gráficos:** Pandas, Folium, Streamlit Components
 * **Machine Learning:** Scikit-Learn (Random Forest Regressor)
 
+### 👩‍💻 Mi contribución al proyecto
+
+Este proyecto fue desarrollado de forma colaborativa. Mi aportación principal se centró en el modelado predictivo y en la integración final de la aplicación:
+
+* Entrenamiento y comparación de diferentes modelos de regresión.
+* Evaluación mediante métricas MAE, RMSE y R².
+* Selección de **Random Forest Regressor** como modelo con mejor rendimiento.
+* Exportación del pipeline entrenado mediante `joblib` para su utilización en la aplicación.
+* Integración y mejora de funcionalidades en la aplicación desarrollada con Streamlit.
+* Optimización de la interfaz, el mapa de estaciones y la experiencia de usuario.
+* Resolución de conflictos de Git durante la integración de las distintas ramas del equipo.
+
+El historial completo de commits y pull requests del repositorio permite consultar y verificar estas contribuciones.
+  
+
 ---
 
 ## 🇬🇧 English
