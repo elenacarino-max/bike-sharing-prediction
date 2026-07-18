@@ -12,7 +12,8 @@ A regression model and interactive application that forecasts urban bicycle dema
 ## 🇪🇸 Español
 
 ### 📝 Descripción del Proyecto
-Plataforma predictiva e interactiva diseñada para la optimización y gestión del sistema de bicicletas compartidas **BiciMAD** en Madrid...
+Plataforma predictiva e interactiva diseñada para optimizar la gestión del sistema de bicicletas compartidas **BiciMAD** en Madrid. La solución combina Machine Learning, datos meteorológicos y variables temporales para estimar la disponibilidad de bicicletas por estación, e incorpora un asistente de reservas y un cuadro de mando con analítica de uso.
+
 
 🔗 **Documentación Interactiva de la Web:** [Visita nuestra web en Mintify / Documentation Link](https://vgg-14b474a8.mintlify.site)
 
