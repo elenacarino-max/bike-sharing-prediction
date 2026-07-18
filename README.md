@@ -20,9 +20,6 @@ Puedes acceder a la aplicación desplegada a través del siguiente enlace:
 [🚀 Ir a BiciMAD Predictor](https://bicimad-bike-sharing-prediction.streamlit.app/)
 
 
-🔗 **Documentación Interactiva de la Web:** [Visita nuestra web en Mintify / Documentation Link](vgg-14b474a8.mintlify.site)
-
-
 ### 🚀 Características Principales
 * **Predicción de Disponibilidad (ML):** Simulación del estado de inventario de las estaciones basándose en variables climáticas reales (temperatura, humedad, precipitación), tipo de día (laborable/festivo) y franjas horarias.
 * **Asistente de Reservas Integrado:** Sistema interactivo mediante ventanas emergentes (*pop-ups* de Streamlit) que valida la regla de antelación de 24 horas y genera localizadores únicos (`BM-XXXX`).
@@ -63,7 +60,8 @@ You can access the deployed application at the following link:
 
 1. **Clonar el repositorio / Clone the repository:**
    ```bash
-   git clone (https://github.com/garciaguadalupevanessa-bit/bike-sharing-prediction.git)
+   git clone https://github.com/elenacarino-max/bike-sharing-prediction.git
    cd bike-sharing-prediction
    pip install -r requirements.txt
    streamlit run app/app.py
+  ´´´
